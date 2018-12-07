@@ -9,3 +9,25 @@
 #search-button {
     max-width: 100px;
 }
+
+.album-art:hover {
+    -moz-box-shadow: 0 0 18px rgb(253, 249, 0);
+    -webkit-box-shadow: 0 0 18px #ccc;
+    box-shadow: 0 0 18px #ccc;
+}
+
+.itemsContainer {
+    float:left;
+    position:relative;
+}
+
+.itemsContainer:hover .play {display:block}
+.play {
+    position : absolute;
+    display:none;
+    top:34%; 
+    width:80px;
+    margin:0 auto; left:0px;
+    right:0px;
+    z-index:100;
+} 
